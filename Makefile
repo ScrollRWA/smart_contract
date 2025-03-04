@@ -1,0 +1,2 @@
+c:
+	npm hardhat compile

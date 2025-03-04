@@ -7,6 +7,8 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 contract ScrollRwa {
   using Strings for uint256;
 
+
+
   enum SRwaAssetType {
     RealEstate,
     CollectiblesNFT,
@@ -19,8 +21,6 @@ contract ScrollRwa {
     string metadataURI;
     uint256 marketValue;
     bool isCollaterized;
-    uint256 riskScore;
-    string zkProofHash;
     uint256 verificationTimestamp;
   }
 
