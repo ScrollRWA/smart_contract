@@ -7,7 +7,7 @@ import {ERC721Burnable} from "@openzeppelin/contracts/token/ERC721/extensions/ER
 import {ERC721URIStorage} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
-contract MyToken is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
+contract NFTContract is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
     constructor(address initialOwner)
         ERC721("MyToken", "MTK")
         Ownable(initialOwner)

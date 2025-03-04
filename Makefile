@@ -1,2 +1,2 @@
 c:
-	npm hardhat compile
+	npx hardhat compile
